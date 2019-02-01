@@ -1,0 +1,148 @@
+﻿@model Movies_App.ViewModels.MovieViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    <div class="page">
+        <div class="breadcrumbs">
+            <a href="@Url.Action("Index","Home")">Home</a>
+        </div>
+
+        @using (Html.BeginForm("Search", "Movies"))
+        {
+            @Html.ValidationSummary()
+            <div class="search">
+                <div class="search-term">
+                    @Html.TextBoxFor(m => m.searchTerm, new { placeholder = "Search by movie name" })
+                    @Html.ValidationMessageFor(m => m.searchTerm)
+                </div>
+                <div class="search-btn">
+                    <input type="submit" value="Search" class="btn btn-primary">
+                </div>
+            </div>
+        }
+
+        <div class="filters">
+            <select name="#" id="#" placeholder="Choose Category">
+                <option value="#">Action</option>
+                <option value="#">Drama</option>
+                <option value="#">Fantasy</option>
+                <option value="#">Horror</option>
+                <option value="#">Adventure</option>
+            </select>
+            <select name="#" id="#">
+                <option value="#">2012</option>
+                <option value="#">2013</option>
+                <option value="#">2014</option>
+            </select>
+        </div>
+        <div class="movie-list">
+            
+            @foreach(var movie in Model.movies)
+            {
+                <div class="movie">
+                    <div class="tools">
+                        <span><a href="#" class="js-toggle-watched btn btn-sm"><i class="glyphicon glyphicon-eye-open"></i></a></span>
+                        <span><a href="#" class="js-toggle-towatch btn btn-sm"><i class="glyphicon glyphicon-plus"></i></a></span>
+                        <span><a href="@Url.Action("Edit", "Movies", new {id=movie.id })" class="btn btn-sm"><i class="glyphicon glyphicon-pencil"></i></a></span>
+                        <span><a href="#" class="js-delete-movie btn btn-sm" data-movie-id="@movie.id"><i class="glyphicon glyphicon-remove"></i></a></span>
+                    </div>
+                    <figure class="movie-poster"><img src="@movie.img" alt="No Poster"></figure>
+                    <div class="movie-title">
+                        <a href="@Url.Action("Details", "Movies", new {id=movie.id })">
+                            <div class="name">@movie.name (@movie.year)</div>
+                        </a>
+                    </div>
+                </div>
+            }    
+
+        </div> <!-- .movie-list -->
+        <div class="pagination">
+            <a href="#" class="page-number prev"><i class="fa fa-angle-left"></i></a>
+            <span class="page-number current">1</span>
+            <a href="#" class="page-number">2</a>
+            <a href="#" class="page-number">3</a>
+            <a href="#" class="page-number">4</a>
+            <a href="#" class="page-number">5</a>
+            <a href="#" class="page-number next"><i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+</div> <!-- .container -->
+        
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $(".js-toggle-watched").click(function (e) {
+                var button = $(e.target);
+                $.post("/api/attendances", { gigId: button.attr("data-gig-id") })
+                .done(function () {
+                    button
+                        .removeClass("btn-default")
+                        .addClass("btn-info")
+                        .text("Watched");
+                })
+                .fail(function () {
+                    alert("Something failed");
+                })
+            });
+
+
+
+
+            $(".js-toggle-towatch").click(function (e) {
+                var button = $(e.target);
+                $.post("/api/following", { followeeId: button.attr("data-user-id") })
+                //button.text(button.attr("data-user-id"))
+                .done(function () {
+                    button.text("Following");
+                })
+                .fail(function () {
+                    alert("Something failed");
+                });
+            });
+
+
+
+
+            $(".js-delete-movie").click(function (e) {
+                var link = $(e.target);
+
+                bootbox.dialog({
+                    title: 'Confirm',
+                    message: "<p>Are you sure you want to delete this movie?</p>",
+                    buttons: {
+                        no: {
+                            label: "No",
+                            className: 'btn-default',
+                            callback: function () {
+                                bootbox.hideAll();
+                            }
+                        },
+                        yes: {
+                            label: "Yes",
+                            className: 'btn-danger',
+                            callback: function () {
+                                $.ajax({
+                                    url: "/api/movies/" + link.attr("data-movie-id"),
+                                    method: "DELETE"
+                                })
+                                .done(function () {
+                                    link.parents("li").fadeOut(function () {
+                                        $(this).remove();
+                                    });
+                                })
+                                .fail(function () {
+                                    alert("Something Failed!");
+                                })
+                            }
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+}

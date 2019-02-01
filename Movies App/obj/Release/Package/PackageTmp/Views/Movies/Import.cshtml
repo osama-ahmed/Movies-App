@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Movie_App.Models.Movie>
+
+@{
+    ViewBag.Title = "Import";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    alert("Data Imported")
+</script>
+
+
+<div class="container">
+    <div class="page">
+       <h1>@Model.Count() Movie are imported</h1> 
+    </div>
+</div>
+

@@ -1,0 +1,62 @@
+﻿@model Movies_App.ViewModels.MovieFormViewModel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="page">
+        <h2>Create</h2>
+        @using (Html.BeginForm())
+        {
+            //to prevent cross-site request forgery (CSRF)
+            @Html.AntiForgeryToken()
+
+            @Html.HiddenFor(m => m.movie.id)
+
+            <p class="alert alert-info">Movie name is <strong>required</strong>.</p>
+            <div class="form-group">
+                @Html.LabelFor(m => m.movie.name)
+                @Html.TextBoxFor(m => m.movie.name, new { @class = "form-control", autofocus = "autofocus" })
+                @Html.ValidationMessageFor(m => m.movie.name)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.movie.year)
+                @Html.TextBoxFor(m => m.movie.year, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.movie.year)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.movie.type)
+                @Html.DropDownListFor(m => m.movie.type, new SelectList(Model.types, "name", "name"), "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.movie.type)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.movie.language)
+                @Html.DropDownListFor(m => m.movie.language, new SelectList(Model.languages, "name", "name"), "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.movie.language)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.movie.img)
+                @Html.TextBoxFor(m => m.movie.img, new { @class = "form-control", placeholder = "eg Content/Movies%20posters/valkyrie_2008_498_poster.jpg" })
+                @Html.ValidationMessageFor(m => m.movie.img)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.movie.watched)
+                @Html.DropDownListFor(m => m.movie.watched, new SelectList(Model.Watched, "value", "name"), "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.movie.watched)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.movie.deleted)
+                @Html.DropDownListFor(m => m.movie.deleted, new SelectList(Model.Watched, "value", "name"), "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.movie.deleted)
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Save</button>
+        }
+    </div>
+</div>
+
+        @section Scripts
+        {
+            @Scripts.Render("~/bundles/jqueryval")
+        }

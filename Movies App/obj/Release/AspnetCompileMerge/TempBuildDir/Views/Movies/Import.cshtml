@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Movie_App.Models.Movie>
+
+@{
+    ViewBag.Title = "Import";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    alert("Data Imported")
+</script>
+
+<h2>Import</h2>
+
+<div class="container">
+    <div class="page">
+        <div class="movie-list">
+
+            @foreach (var movie in Model)
+            {
+                <div class="movie">
+                    <div class="tools">
+                        <span><a href="#" class="js-toggle-watched btn btn-sm"><i class="glyphicon glyphicon-eye-open"></i></a></span>
+                        <span><a href="#" class="js-toggle-towatch btn btn-sm"><i class="glyphicon glyphicon-plus"></i></a></span>
+                        <span><a href="@Url.Action("Edit", "Movies", new {id=movie.id })" class="btn btn-sm"><i class="glyphicon glyphicon-pencil"></i></a></span>
+                        <span><a href="#" class="js-delete-movie btn btn-sm" data-movie-id="@movie.id"><i class="glyphicon glyphicon-remove"></i></a></span>
+                    </div>
+                    <figure class="movie-poster"><img src="@movie.img" alt="No Poster"></figure>
+                    <div class="movie-title">
+                        <a href="@Url.Action("Details", "Movies", new {id=movie.id })">
+                            <div class="name">@movie.name (@movie.year)</div>
+                        </a>
+                    </div>
+                </div>
+            }
+
+        </div> <!-- .movie-list -->
+    </div>
+</div>
+

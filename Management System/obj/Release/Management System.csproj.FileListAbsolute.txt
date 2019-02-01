@@ -1,0 +1,20 @@
+D:\C#\Management System v2\Movies App\Management System\bin\Release\Management System.exe.config
+D:\C#\Management System v2\Movies App\Management System\bin\Release\Management System.exe
+D:\C#\Management System v2\Movies App\Management System\bin\Release\Management System.pdb
+D:\C#\Management System v2\Movies App\Management System\obj\Release\Management System.csprojResolveAssemblyReference.cache
+D:\C#\Management System v2\Movies App\Management System\obj\Release\Management_System.AddMovie.resources
+D:\C#\Management System v2\Movies App\Management System\obj\Release\Management_System.MainForm.resources
+D:\C#\Management System v2\Movies App\Management System\obj\Release\Management_System.Properties.Resources.resources
+D:\C#\Management System v2\Movies App\Management System\obj\Release\Management System.csproj.GenerateResource.Cache
+D:\C#\Management System v2\Movies App\Management System\obj\Release\Management System.exe
+D:\C#\Management System v2\Movies App\Management System\obj\Release\Management System.pdb
+D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\bin\Release\Management System.exe.config
+D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\bin\Release\Management System.exe
+D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\bin\Release\Management System.pdb
+D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\obj\Release\Management System.csprojResolveAssemblyReference.cache
+D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\obj\Release\Management_System.AddMovie.resources
+D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\obj\Release\Management_System.MainForm.resources
+D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\obj\Release\Management_System.Properties.Resources.resources
+D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\obj\Release\Management System.csproj.GenerateResource.Cache
+D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\obj\Release\Management System.exe
+D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\obj\Release\Management System.pdb

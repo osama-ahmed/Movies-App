@@ -1,0 +1,36 @@
+﻿@model Movie_App.Models.Movie
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="page">
+        <h2>Movie Details</h2>
+
+        <figure class="movie-poster"><img src=@Model.img alt="No Poster" style="height:600px;width:500px;"/> </figure>
+        <div class="movie-details">
+            <hr />
+            <div class="item">Name: @Model.name</div>
+            <hr />
+            <div class="item">Year: @Model.year</div>
+            <hr />
+            <div class="item">Type: @Model.type</div>
+            <hr />
+            <div class="item">Language: @Model.language</div>
+            <hr />
+            <div class="item">Watched: @Model.watched</div>
+            <hr />
+            <div class="item">Deleted: @Model.deleted</div>
+            <hr />
+            <div class="item">User Id: @Model.userId</div>
+            <hr />
+            <div class="item">Image path: @Model.img</div>
+            <hr />
+        </div>
+    </div>
+</div>
+
+
+
