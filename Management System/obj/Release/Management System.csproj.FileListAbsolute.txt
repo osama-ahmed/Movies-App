@@ -18,3 +18,13 @@ D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\
 D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\obj\Release\Management System.csproj.GenerateResource.Cache
 D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\obj\Release\Management System.exe
 D:\output\My projects\ASP.NET\Management System v2\Movies App\Management System\obj\Release\Management System.pdb
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Management System\bin\Release\Management System.exe.config
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Management System\bin\Release\Management System.exe
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Management System\bin\Release\Management System.pdb
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Management System\obj\Release\Management System.csprojResolveAssemblyReference.cache
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Management System\obj\Release\Management_System.AddMovie.resources
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Management System\obj\Release\Management_System.MainForm.resources
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Management System\obj\Release\Management_System.Properties.Resources.resources
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Management System\obj\Release\Management System.csproj.GenerateResource.Cache
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Management System\obj\Release\Management System.exe
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Management System\obj\Release\Management System.pdb

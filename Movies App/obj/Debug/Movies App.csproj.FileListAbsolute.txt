@@ -271,3 +271,71 @@ E:\output\My projects\ASP.NET\Management System v2\Movies App\Movies App\obj\Deb
 E:\output\My projects\ASP.NET\Management System v2\Movies App\Movies App\obj\Debug\Movies App.csproj.GenerateResource.Cache
 E:\output\My projects\ASP.NET\Management System v2\Movies App\Movies App\obj\Debug\Movies App.dll
 E:\output\My projects\ASP.NET\Management System v2\Movies App\Movies App\obj\Debug\Movies App.pdb
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Movies App.dll.config
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Movies App.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Movies App.pdb
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Antlr3.Runtime.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\EntityFramework.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\EntityFramework.SqlServer.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Management System.exe
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.AspNet.Identity.Core.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.Cookies.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.Facebook.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.Google.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.OAuth.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.Twitter.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Web.Infrastructure.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Newtonsoft.Json.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Owin.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Net.Http.Formatting.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.Helpers.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.Http.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.Http.WebHost.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.Mvc.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.Optimization.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.Razor.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.WebPages.Deployment.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.WebPages.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.WebPages.Razor.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\WebGrease.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Management System.pdb
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Net.Http.Formatting.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.Http.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.Http.WebHost.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.Helpers.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.Mvc.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.Optimization.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.Razor.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.WebPages.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.WebPages.Deployment.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\System.Web.WebPages.Razor.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Newtonsoft.Json.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Antlr3.Runtime.pdb
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\EntityFramework.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\EntityFramework.SqlServer.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.AspNet.Identity.Core.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.Facebook.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.Cookies.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.OAuth.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.Google.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.Twitter.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\obj\Debug\Movies App.csprojResolveAssemblyReference.cache
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\obj\Debug\Interop.ExcelClientPkgLib.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\obj\Debug\Movies App.csproj.ResolveComReference.cache
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\obj\Debug\Movies_App.Properties.Resources.resources
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\obj\Debug\Movies App.csproj.GenerateResource.Cache
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\obj\Debug\Movies App.dll
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\obj\Debug\Movies App.pdb
+E:\output\My-Projects\ASP.NET\Movies Management App\Management System v2\Movies App\Movies App\obj\Debug\Movies_App.Migrations.intial.resources

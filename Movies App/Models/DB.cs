@@ -10,7 +10,7 @@ namespace Movie_App.Models
         SqlConnection connection;
         SqlCommand cmd;
         SqlDataReader rdr = null;
-        string connString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=E:\output\My projects\ASP.NET\Management System v2\Movies App\Movies App\App_Data\database.mdf;Integrated Security=True";
+        string connString = @"data source=OSAMA-PC;initial catalog=MoviesApp;user id=osama;password=osama123";
 
         public DB()
         {

@@ -51,7 +51,7 @@
             {
                 <div class="movie">
                     <div class="tools">
-                        <span><a href="#" class="js-toggle-watched btn btn-sm"><i class="glyphicon glyphicon-eye-open"></i></a></span>
+                        <span><a href="#" class="js-toggle-watched btn btn-sm" data-movie-id="@movie.id"><i class="glyphicon glyphicon-eye-open"></i></a></span>
                         <span><a href="#" class="js-toggle-towatch btn btn-sm" data-movie-id="@movie.id"><i class="glyphicon glyphicon-plus"></i></a></span>
                         <span><a href="@Url.Action("Edit", "Movies", new {id=movie.id })" class="btn btn-sm"><i class="glyphicon glyphicon-pencil"></i></a></span>
                         <span><a href="#" class="js-delete-movie btn btn-sm" data-movie-id="@movie.id"><i class="glyphicon glyphicon-remove"></i></a></span>
@@ -90,14 +90,13 @@
             debugger;
             $(".js-toggle-watched").click(function (e) {
                 debugger;
-                var button = $(e.target);
-                $.post("/api/attendances", { gigId: button.attr("data-movie-id") })
+                var button = this;
+                var input = {};
+                input.movieId=$(button).attr("data-movie-id");
+                $.post("/api/Watched", { movieId: input.movieId })
                 .done(function () {
                     debugger;
-                    button
-                        .removeClass("btn-default")
-                        .addClass("btn-info")
-                        .text("Watched");
+                    alert("Added to Watched List " + $(button).parents('.movie').find('.name').text());
                 })
                 .fail(function () {
                     debugger;
@@ -110,14 +109,13 @@
 
             $(".js-toggle-towatch").click(function (e) {
                 debugger;
-                
+                var button = this;
                 var input = {};
                 input.movieId=$(this).attr("data-movie-id");
                 $.post("/api/towatch", { movieId:input.movieId  })
-                //document.write(button.attr("data-movie-id"))
                 .done(function () {
                     debugger;
-                    alert("added " + $(this).attr("data-movie-id"));
+                    alert("Added to ToWatch list" + $(button).parents('.movie').find('.name').text());
                 })
                 .fail(function () {
                     debugger;
